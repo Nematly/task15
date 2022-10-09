@@ -6,6 +6,7 @@
 }
 body {
    padding: 0 35px;
+   max-width: 991px;
 }
 .head__article {
    max-width: 990px;
@@ -13,6 +14,7 @@ body {
    margin: 0 auto;
    display: flex;
    flex-direction: column;
+   margin-bottom: 20px;
 }
 .header__logo {
    width: 55px;
@@ -73,7 +75,6 @@ body {
    text-align: left;
    line-height: 14px;
    padding: 12px;
-   margin-bottom: 20px;
 }
 .main__quote__text__au {
    font-size: 10px;
@@ -106,10 +107,25 @@ body {
    position: relative;
    left: 50%;
    transform: translate(-50%, 0);
+   z-index: -1;
 }
 .main__description {
-
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   width: 80%;
 }
 .main__description__card {
-
+   width: 76px;
+   margin-right: 15px;
+}
+.card__head {
+   font-size: 12px;
+   font-weight: 700;
+   line-height: 16px;
+}
+.card__text {
+   font-size: 10px;
+   font-weight: 400;
+   line-height: 13px;
 }
