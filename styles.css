@@ -54,12 +54,12 @@ body {
 .main__title {
    width: 85%;
 }
-.main__img {
+.header__img {
    background-image: url(./logos/main.img.svg);
    width: 140px;
    height: 175px;
    position: relative;
-   left: 70%;
+   left: 65%;
    z-index: -1;
    margin-bottom: 40px;
 }
@@ -73,9 +73,43 @@ body {
    text-align: left;
    line-height: 14px;
    padding: 12px;
+   margin-bottom: 20px;
 }
 .main__quote__text__au {
    font-size: 10px;
    text-align: right;
    margin-top: 10px;
+}
+
+.article__section {
+   height: 100vh;
+   margin-top: 20px;
+   width: 100wv;
+}
+.main__header {
+   font-size: 26px;
+   line-height: 26px;
+   font-weight: 700;
+   margin-bottom: 15px;
+}
+.main__text {
+   font-size: 12px;
+   font-weight: 400;
+   line-height: 18px;
+   margin-bottom: 15px;
+   width: 310px;
+}
+.main__img {
+   background-image: url(./logos/operator.svg);
+   width: 170px;
+   height: 160px;
+   position: relative;
+   left: 50%;
+   transform: translate(-50%, 0);
+}
+.main__description {
+
+}
+.main__description__card {
+
 }
