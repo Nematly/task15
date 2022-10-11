@@ -169,3 +169,7 @@ body {
    width: 300px;
 }
 /* fourth section  */
+.block__wrapper {
+   width: 185px;
+   height: 155px;
+}
