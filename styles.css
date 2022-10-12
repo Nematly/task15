@@ -18,6 +18,7 @@
    line-height: 26px;
    font-weight: 700;
    margin-bottom: 15px;
+   font-family: "Roboto Slab", sans-serif;
 }
 /* header section */
 .head__article {
@@ -132,9 +133,6 @@
    width: 86px;
 }
 /* third section */
-.format__section {
-   width: 100%;
-}
 .format__title {
    margin-bottom: 30px ;
 }
@@ -169,12 +167,15 @@
 .block__wrapper {
    width: 185px;
    height: 160px;
-   margin: 0 auto;
    text-align: left;
    box-shadow: 1px 1px 15px rgb(0 0 0 / 25%);
    overflow: hidden;
    margin-bottom: 15px;
    border-radius: 25px;
+   margin-left: 30px;
+}
+.block__main__wrap {
+   margin: 0 auto;
 }
 .block__title__wrap {
    padding: 0 15px;
@@ -190,6 +191,34 @@
    font-size: 12px;
    line-height: 15.6px;
 }
-.block___title:last-child {
-   padding-bottom: 15px;
+/* COMMENT SECTION */
+.comment__wrap {
+   
+}
+.comment__box {
+   border-radius: 26px;
+   box-shadow: 1px 1px 15px rgb(0 0 0 / 25%);
+   padding: 15px;
+   width: 80%;
+   margin: 0 auto;
+}
+.comment__text {
+   font-weight: 400;
+   font-size: 10px;
+   line-height: 15px;
+}
+.comFooter__wrap {
+   display: flex;
+   justify-content: space-around;
+}
+.rightSide {
+   background-image: url(./logos/comment\ icon.svg);
+   width: 80px;
+   height: 84px;
+}
+.comFooter__text {
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 14px;
+   margin-bottom: 15px;
 }
