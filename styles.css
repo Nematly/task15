@@ -11,7 +11,7 @@
 .article__section {
    width: 100%;
    margin-bottom: 60px;
-   padding: 0 35px;
+   padding: 0 36px;
 }
 .title__header {
    font-size: 26px;
@@ -208,7 +208,7 @@
    border-radius: 26px;
    box-shadow: 1px 1px 15px rgb(0 0 0 / 25%);
    padding: 15px;
-   width: 80%;
+   width: 90%;
    margin: 30px auto;
    background-color: #fff;
 }
@@ -219,7 +219,7 @@
 }
 .comFooter__wrap {
    display: flex;
-   justify-content: space-around;
+   justify-content: space-between;
 }
 .rightSide {
    background-image: url(./logos/comment\ icon.svg);
@@ -309,4 +309,20 @@
 .copyright {
    font-size: 10px;
    margin-top: 36px;
+}
+/* MEDIA QUERIES */
+@media screen and (min-width: 992px) and (max-width: 1279px) {
+   .body__wrapper {
+      min-width: 992px;
+      max-width: 1279px;
+   }
+   .article__section {
+      padding: 0 70px;
+   }
+   .title__header {
+      font-size: 32px;
+   }
+   .logo__text {
+      font-size: 12px;
+   }
 }
