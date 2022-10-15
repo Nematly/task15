@@ -15,7 +15,7 @@
 }
 .title__header {
    font-size: 26px;
-   line-height: 26px;
+   line-height: 101%;
    font-weight: 700;
    margin-bottom: 15px;
    font-family: "Roboto Slab", sans-serif;
@@ -53,10 +53,10 @@
 }
 .header__title {
    font-family: "Roboto Slab";
+   width: 65%;
    line-height: 38px;
    font-size: 37px;
    font-weight: 700;
-   width: 290px;
    margin-bottom: 16px;
 }
 .head__main {
@@ -80,7 +80,6 @@
    color: #fff;
    border-radius: 3px;
    width: 225px;
-   height: 95px;
    font-size: 11px;
    text-align: left;
    line-height: 14px;
@@ -172,7 +171,6 @@
 /* fourth section  */
 .block__wrapper {
    width: 185px;
-   height: 160px;
    text-align: left;
    box-shadow: 1px 1px 15px rgb(0 0 0 / 25%);
    overflow: hidden;
@@ -182,9 +180,10 @@
 }
 .block__main__wrap {
    margin: 0 auto;
+   margin-top: 30px;
 }
 .block__title__wrap {
-   padding: 0 15px;
+   padding: 15px;
 }
 .block__header {
    font-weight: 700;
@@ -225,7 +224,7 @@
    justify-content: space-between;
 }
 .rightSide {
-   background-image: url(./logos/comment\ icon.svg);
+   background-image: url(./logos/1\ 9.png);
    width: 80px;
    height: 84px;
 }
@@ -347,7 +346,6 @@
    .header__title {
       line-height: 101%;
       font-size: 46px; 
-      width: 363px;
    }
    .main__title {
        font-size: 12px;
@@ -364,7 +362,6 @@
        left: 60%;
    }
    .main__quote {
-      height: 115px;
       width: 281px;
       font-size: 14px;
       padding: 13px 15px;
@@ -406,7 +403,6 @@
    }
    .main__description__card {
       width: 25%;
-      margin-right: 0;
    }
    .card__head {
       font-size: 15px;
@@ -421,6 +417,10 @@
    .format__card__wrap {
       width: 90%;
       display: flex;
+      justify-content: space-evenly;
+   }
+   .format__card {
+         margin-right: 10px;
    }
    .format__card__head {
       font-size: 15px;
@@ -444,7 +444,6 @@
    }
    .block__wrapper {
       width: 27%;
-      height: 189px;
    }
    .block__img {
       width: 100%;
@@ -483,7 +482,7 @@
    }
    .rightSide {
       width: 111px;
-      height: 97px;
+      height: 99px;
       background-repeat: no-repeat;
       background-size: cover;
    }
@@ -539,9 +538,219 @@
 }
 @media screen and (min-width: 1025px) {
    .body__wrapper {
-      width: 100%;
+      min-width: 1025px;
+      max-width: 100%;
    }
    .article__section {
-      padding: 121px;
+      padding: 0 121px;
+   }
+   .title__header {
+   font-size: 55px;
+   }
+   .comment__section {
+       padding: 0;
+   }
+   .cost__section {
+       padding: 0;
+   }
+   /* header section */
+   .header__logo {
+      width: 112px;
+      height: 66px;
+   }
+   .main__logo__text {
+      margin-right: 25px;
+   }
+   .text__logo {
+      width: 21px;
+      height: 21px;
+   }
+   .logo__text {
+      font-size: 20px;
+   }
+   .header__title {
+      font-size: 80px;
+      line-height: 110%;
+      width: 80%;
+   }
+   .main__title {
+      font-size: 20px;
+      width: 414px;
+   }
+   .header__img {
+      width: 304px;
+      height: 356px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: absolute;
+      z-index: -1;
+      bottom: 7%;
+      left: 65%;
+   }
+   .main__quote {
+      width: 483px;
+      font-size: 25px;
+      line-height: 130%;
+      padding: 20px;
+      margin: 0 auto;
+      margin-top: 15%;
+   }
+   /* second section */
+   .main__img__section {
+      display: flex;
+      margin: 35px 0;
+   }
+   .main__text {
+      font-size: 24px;
+      line-height: 120%;
+      width: 65%;
+   }
+   .main__img {
+      width: 314px;
+      height: 315px;
+      position: absolute;
+      background-repeat: no-repeat;
+      background-size: cover;
+      left: 75%;
+   }
+   .main__description {
+      width: 100%; 
+      flex-wrap: nowrap; 
+   }
+   .main__description__img {
+      display: block;
+      width: 231px;
+      height: 203px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-right: 25px;
+   }
+   .main__description__card {
+      width: 25%;
+      margin-right: 0;
+      margin-top: 30px;
+   }
+   .card__head {
+      font-size: 25px;
+      line-height: 130%;
+   }
+   .card__text {
+      font-size: 18px;
+      line-height: 130%;
+      width: 100%;
+   }
+   /* third section */
+   .format__title {
+      margin-bottom: 50px;
+   }
+   .format__card__wrap {
+      display: flex;
+      width: 100%;
+      justify-content: space-evenly;
+      margin-bottom: 70px;
+   }
+   .format__card__head {
+      font-size: 25px;
+      line-height: 130%;
+   }
+   .format__card__text {
+      font-size: 18px;
+      line-height: 130%;
+   }
+   .format__card:not(:last-child) {
+      margin-right: 20px;
+   }
+   .format__list__wrap {
+      font-size: 24px;
+      line-height: 150%;
+      width: 70%;
+      margin-bottom: 70px;
+   }
+   /* fourth section */
+   .block__main__wrap {
+      display: flex;
+      flex-wrap: wrap;
+   }
+   .block__wrapper {
+      width: 30%;
+   }
+   .block__img {
+      width: 100%;
+   }
+   .block__header {
+      font-size: 30px;
+      line-height: 110%;
+   }
+   .block__title {
+      font-size: 25px;
+      line-height: 110%;
+   }
+   /* comment section */
+   .comment__wrap {
+      padding-left: 121px;
+      padding-top: 60px;
+   }
+   .comment__box {
+      width: 65%;
+      margin: 70px 0;
+      padding: 30px;
+   }
+   .comment__text {
+      font-size: 20px;
+      line-height: 110%;
+   }
+
+   .comFooter__wrap {
+      justify-content: left;
+   }
+   .rightSide {
+      width: 190px;
+      height: 169px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin-right: 20px;
+   }
+   .leftSide {
+      margin-top: 20px;
+   }
+   .comFooter__text {
+      font-size: 30px;
+      line-height: 101%;
+      margin-bottom: 15px;
+   }
+   .footer__logo {
+      width: 31px;
+      height: 31px;
+   }
+   /* cost section */
+   .cost__section__wrap {
+      padding: 60px 60px 60px 121px;
+   }
+   .cost__text {
+      font-size: 25px;
+      line-height: 101%;
+   }
+   .cost__price {
+      font-size: 80px;
+      line-height: 101%;
+      margin-bottom: 30px;
+   }
+   .cost__block {
+      margin-bottom: 70px;
+   }
+   .cost__block__wrap:first-child {
+      margin-right: 25px;
+   }
+   .cost__block__text {
+      font-size: 25px;
+      line-height: 101%;
+   }
+   .cost__block__text:nth-child(2n-1) {
+   padding-bottom: 10px;
+   }
+   /* footer */
+   .footer__section {
+      font-size: 25px;
+      line-height: 101%;
    }
 }
