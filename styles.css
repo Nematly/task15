@@ -224,7 +224,7 @@
    justify-content: space-between;
 }
 .rightSide {
-   background-image: url(./logos/1\ 9.png);
+   background-image: url(./logos/comment\ icon.svg);
    width: 80px;
    height: 84px;
 }
@@ -396,13 +396,12 @@
    }
    .main__description__img {
       display: block;
-      flex-grow: 2;
-      margin-right: 35px;
+      margin-right: 15px;
       background-repeat: no-repeat;
       background-size:cover;
    }
    .main__description__card {
-      width: 25%;
+      width: 21%;
    }
    .card__head {
       font-size: 15px;
